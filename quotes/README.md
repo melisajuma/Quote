@@ -11,7 +11,7 @@ Melisa JUma™ (9/07/2019)
 
 It enables a user to input quotes, upvote, downvote or delete quotes from their dashboard. It has a form component where the user enters the quote, name of author and their name, all which are  then displayed on the quote display component. A user clicks the upvote button to like a quote or a downvote button to show dislike.The quote with the highest upvote is displayed as 'Quote of the day'. One can also see how long the quote has been on the site.
 
-## Development server>
+## Development server
 
 Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
@@ -22,7 +22,7 @@ Run ng generate component component-name to generate a new component. You can al
 ## Build
 Run ng build to build the project. The build artifacts will be stored in the dist/ directory. Use the --prod flag for a production build.
 
-## BBD
+## BBD>
 | Behaviour | input example | output example |
 |Show quote info |  Input quote and author  | Adds info to the component|
 |Submit quote| Click submit button  |Quote is added to the quote list|
