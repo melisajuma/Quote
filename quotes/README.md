@@ -4,10 +4,10 @@ This project was generated with Angular version 8.1.0.
 
 This is a quotes application that is supposed to allow a user to input quotes, upvote when they like the quote, downvote when they dont like the quote or delete them.
 
-## Author>
+## Author
 Melisa JUma™ (9/07/2019)
 
-## Description
+## Description>
 
 It enables a user to input quotes, upvote, downvote or delete quotes from their dashboard. It has a form component where the user enters the quote, name of author and their name, all which are  then displayed on the quote display component. A user clicks the upvote button to like a quote or a downvote button to show dislike.The quote with the highest upvote is displayed as 'Quote of the day'. One can also see how long the quote has been on the site.
 
