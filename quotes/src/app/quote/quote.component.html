@@ -9,12 +9,12 @@
         <h1> Your favorite {{ title }} Web</h1>
       </div>
     </nav>
-    <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>>>
+    <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
     <div *ngFor="let quote of quotes; let i = index">
       <div id="con-1">
         <div id="{{i}}">
           <p class="top">{{quote.description}}</p>
-          <p>Posted {{ quote.completeDate |dateCount }} days ago</p>
+          <p>Posted {{ quote.completeDate |dateCount }} days ago</p>>>
           <a id="like" (click)="like(i)">
             <span class="glyphicon glyphicon-thumbs-up"></span>
           </a>
