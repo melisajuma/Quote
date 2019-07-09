@@ -1,10 +1,10 @@
-# Quotes>
+# Quotes
 
 This project was generated with Angular version 8.1.0.
 
 This is a quotes application that is supposed to allow a user to input quotes, upvote when they like the quote, downvote when they dont like the quote or delete them.
 
-## Author
+## Author>
 Melisa JUma™ (9/07/2019)
 
 ## Description
