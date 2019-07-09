@@ -22,7 +22,7 @@ Run ng generate component component-name to generate a new component. You can al
 ## Build
 Run ng build to build the project. The build artifacts will be stored in the dist/ directory. Use the --prod flag for a production build.
 
-## BBD>
+## BBD
 | Behaviour | input example | output example |
 |Show quote info |  Input quote and author  | Adds info to the component|
 |Submit quote| Click submit button  |Quote is added to the quote list|
