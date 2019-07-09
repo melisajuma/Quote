@@ -1,11 +1,11 @@
-# Quotes
+# Quotes>
 
 This project was generated with Angular version 8.1.0.
 
 This is a quotes application that is supposed to allow a user to input quotes, upvote when they like the quote, downvote when they dont like the quote or delete them.
 
 ## Author
-Melisa JUma™ (/07/2019)
+Melisa JUma™ (9/07/2019)
 
 ## Description
 
@@ -22,6 +22,13 @@ Run ng generate component component-name to generate a new component. You can al
 ## Build
 Run ng build to build the project. The build artifacts will be stored in the dist/ directory. Use the --prod flag for a production build.
 
+## BBD
+| Behaviour | input example | output example |
+|Show quote info |  Input quote and author  | Adds info to the component|
+|Submit quote| Click submit button  |Quote is added to the quote list|
+| Upvote and Downvote | Clcik upvote and downvote button  |Adds or deducts quotes |    
+| Delete | Click delete icon    | Quote is deleted  |
+
 ## Running unit tests
 Run ng test to execute the unit tests via Karma.
 
@@ -37,3 +44,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 contact me at Melisaakinyi95@gmail.com
 
 ## License
+The project is under MIT license Copyright © 2019.All rigths reserved
+
