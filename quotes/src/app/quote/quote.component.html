@@ -3,13 +3,13 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <body>
-  <div class=container>>>
+  <div class=container>
     <nav class="navbar navbar-light justify-content-between text-center">
       <div class="text-center main-1">
         <h1> Your favorite {{ title }} Web</h1>
       </div>
     </nav>
-    <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+    <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>>>
     <div *ngFor="let quote of quotes; let i = index">
       <div id="con-1">
         <div id="{{i}}">
