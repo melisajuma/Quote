@@ -26,7 +26,7 @@
           {{quote.downvote}}
           <br>
           <div id="del">
-            <a id="delete" (click)="deleteQuote(true)">>>
+            <a id="delete" (click)="deleteQuote(true)">
               <span class="glyphicon glyphicon-trash"></span>
             </a>
           </div>
@@ -36,7 +36,7 @@
         <div class="button">
           <button class="btn btn-success" (click)="toggleDetails(i)"><i class="	fa fa-plus-square"></i> </button>
         </div>
-        <div *ngIf="quote.showDescription">
+        <div *ngIf="quote.showDescription">>>
           <app-quote-details [quote]="quote" (isComplete)="deleteQuote($event, i)"></app-quote-details>
         </div>
       </div>
