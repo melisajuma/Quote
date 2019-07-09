@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Black+And+White+Picture|Yesteryear&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 *{
-    font-family: 'Black And White Picture', sans-serif;
+    font-family: 'Indie Flower', cursive;
 }
 #form{
     width: 100%;
     
-    font-family: 'Black And White Picture', sans-serif;
+    font-family: 'Indie Flower', cursive;
 }
 
 

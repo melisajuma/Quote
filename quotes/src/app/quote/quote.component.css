@@ -1,13 +1,46 @@
-.top{
-    background-color: grey;
-  }
-  .one{
-    border-radius: 50%;
-  }
-  ul{
-    list-style-type: none;
-  }
-  .row{
-    background-image: url('https://images.pexels.com/photos/34435/pexels-photo.jpg?cs=srgb&dl=black-and-white-branch-cherry-blossom-34435.jpg&fm=jpg');
-    margin: 4px;
-  }
+@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Black+And+White+Picture|Yesteryear&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+nav{
+    color: #fff;
+    font-family:'Indie Flower', cursive;
+    margin-bottom:5%;
+}
+nav img{
+    color: #fff;
+}
+footer{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+#con-1{
+    background-color:rgba(26, 27, 26, 0.685);
+    margin-top: 5%;
+    font-family:'Indie Flower', cursive;
+    color: #fff;
+    font-weight: 280;
+    font-size: 20px;
+}
+nav img{
+    font-family: 'Indie Flower', cursive;
+}
+body{
+    background-image: url('https://images.pexels.com/photos/6183/office-notes-colorful-paper.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max:width= 450px){
+    #con-1{
+        width: 100%;
+    }
+}
+#like, #unlike, #delete{
+    padding: 5%;
+    color: white;
+}
+#del{
+    padding-top: 3%;
+    margin-left: 7%;
+}
