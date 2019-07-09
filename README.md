@@ -1,4 +1,4 @@
-# Quote-Web
+# Quotes
 
 This project was generated with Angular version 8.1.0.
 
