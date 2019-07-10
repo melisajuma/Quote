@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 nav{
-    color: #fff;
+    color: white;
     font-family:'Indie Flower', cursive;
     margin-bottom:5%;
 }
@@ -26,11 +26,7 @@ footer{
 nav img{
     font-family: 'Indie Flower', cursive;
 }
-body{
-    background-image: url('https://images.pexels.com/photos/6183/office-notes-colorful-paper.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 @media only screen and (max:width= 450px){
     #con-1{
         width: 100%;
