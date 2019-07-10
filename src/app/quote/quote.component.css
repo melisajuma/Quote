@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 nav{
-    color: white;
+    color: white+6;
     font-family:'Indie Flower', cursive;
     margin-bottom:5%;
 }
